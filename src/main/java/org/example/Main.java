@@ -19,7 +19,6 @@ public class Main {
                 new User("Misha", 14),
                 new User("Pole", 41));
 
-        List<String> nameList = sortService.sortUsers(users);
-        nameList.forEach(System.out::println);
+       sortService.sortUsers(users).forEach(System.out::println);
     }
 }
